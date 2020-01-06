@@ -1,1 +1,3 @@
-# spring-microservice-config-server
+# Spring Boot - Microservice - Config Server
+
+Microservices with Spring.
