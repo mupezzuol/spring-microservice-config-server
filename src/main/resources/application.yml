@@ -9,4 +9,5 @@ spring:
           uri: https://github.com/mupezzuol/spring-microservice-config-server-repo
           search-paths:
           - fornecedor
+          - loja
             
