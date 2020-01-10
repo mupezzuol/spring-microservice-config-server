@@ -10,4 +10,5 @@ spring:
           search-paths:
           - fornecedor
           - loja
+          - transportador
             
