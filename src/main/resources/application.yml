@@ -2,6 +2,8 @@ server:
   port: 8888
 
 spring:
+  application:
+    name: 'config-server'
   cloud:
     config:
       server:
@@ -11,4 +13,18 @@ spring:
           - fornecedor
           - loja
           - transportador
-            
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:8082
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+  endpoint:
+    health:
+      show-details: always
